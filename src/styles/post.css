@@ -1,0 +1,177 @@
+
+
+/* Main Post Container */
+.post {
+  width: 60%;
+  
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Inner box for padding and spacing */
+.box {
+  padding: 15px;
+}
+
+/* Post Header Container */
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Profile Image in Header */
+.post-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid #dbdbdb;
+}
+
+/* Username and Time Text */
+.post-username {
+  font-weight: bold;
+  font-size: 14px;
+  color: #262626;
+  margin-right: 5px;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.post-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  width: 100%;
+ 
+}
+
+/* Options Icon (3 Dots) */
+.post-options-icon {
+   width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Main Post Image */
+.post-image {
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+/* Action Icons Container */
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid #efefef;
+}
+
+/* Action Icons (like, comment, share, save) */
+.action-icon {
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.1s ease;
+}
+
+.action-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .post {
+    padding: inherit;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+
+  .post-profile-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .post-username {
+    font-size: 0.95rem;
+  }
+
+  .post-time {
+    font-size: 0.85rem;
+  }
+
+  .post-description {
+    font-size: 0.85rem;
+  }
+
+  .action-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .post {
+    padding: inherit;
+  }
+
+  .box {
+    border-radius: 6px;
+  }
+
+  .post-header {
+    padding: 10px;
+  }
+
+  .post-profile-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .post-username {
+    font-size: 0.9rem;
+  }
+
+  .post-time {
+    font-size: 0.8rem;
+  }
+
+  .post-description {
+    font-size: 0.8rem;
+  }
+
+  .post-actions {
+    padding: 8px;
+  }
+
+  .action-icon {
+    width: 20px;
+    height: 20px;
+    display: table-row-group;
+  }
+
+  .post-options-icon {
+    width: 18px;
+    height: 18px;
+    display: none;
+  
+  }
+}
+
+
+
+  

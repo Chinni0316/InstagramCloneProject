@@ -1,0 +1,43 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+  }
+  
+  .posts {
+    flex-grow: 2;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 240px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .instagram-logo {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
